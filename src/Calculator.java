@@ -1,8 +1,6 @@
 public class Calculator {
-  //  private int a;
-   // private int b;
-   // private String charAction;
-    private double result;
+
+     double result;
 
     public double Calculate(ScanAndPars scanAndPars) {
         switch (scanAndPars.charAction) {
