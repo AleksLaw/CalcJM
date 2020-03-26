@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         ReadExamp  readExamp= new ReadExamp();
         while (true) {
+            System.out.println("Введите данные");
             String line = readExamp.readLine();
             line = line.replaceAll(" ", "");
             List<Character> operators = Arrays.asList('+', '-', '*');
